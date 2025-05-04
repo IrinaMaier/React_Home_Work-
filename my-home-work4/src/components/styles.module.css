@@ -1,0 +1,97 @@
+.appContainer {
+  min-height: 100vh;
+  background-color: #208024;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Стили селектора */
+.citySelector {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.citySelector h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  
+}
+
+.citySelector select {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #0b0b0b;
+  background-color: #7ad27e;
+  
+}
+
+/* Стили карточки */
+.cityCard {
+  background: none; 
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.cityCard h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.cityCard img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cityCard p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.cityCard ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #0b0a0a;
+}
+.cityContent {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap; /* для мобильных устройств */
+}
+
+.cityImage {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.cityText {
+  max-width: 300px;
+  text-align: left;
+}
+.cityFacts {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+  color: #0d0c0c;
+  font-size: 14px;
+}
+
+.cityDescription {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #0c0b0b;
+}
