@@ -1,0 +1,47 @@
+.rating-container {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+  }
+  
+  .rating-image {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .rating-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rating-button:hover {
+    background-color: #ddd;
+  }
+  
+  .rating-button.active {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .current-rating {
+    font-size: 18px;
+    color: #333;
+  }
