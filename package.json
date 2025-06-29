@@ -1,0 +1,56 @@
+{
+<<<<<<< HEAD
+  "name": "my-home-work19",
+=======
+  "name": "my-home-work5",
+>>>>>>> 905ddd069b9859bb44812c4a12d74af9c3f733f2
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
+    "antd": "^5.26.2",
+=======
+>>>>>>> 905ddd069b9859bb44812c4a12d74af9c3f733f2
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.1.0"
+>>>>>>> 905ddd069b9859bb44812c4a12d74af9c3f733f2
+  }
+}

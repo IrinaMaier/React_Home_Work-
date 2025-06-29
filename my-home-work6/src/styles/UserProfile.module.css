@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.profileCard {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(121, 206, 121);
+    width: 650px;
+    height: 850px;
+   
+    
+}
+
+.profileName {
+    color: #2c3e50;
+    margin: 60px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.profileInfo {
+    color: #34495e;
+    margin: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 250px;
+}
+
+.profileInfo strong {
+    color: #2c3e50;
+    display: inline-block;
+    width: 80px;
+}
+
+.refreshButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.refreshButton:hover {
+    background-color: #2980b9;
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+.error {
+    color: #e74c3c;
+}
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  border: 3px solid #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

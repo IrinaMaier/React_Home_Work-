@@ -1,0 +1,95 @@
+.contactsSection {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  text-align: left; /* Заголовок тоже слева */
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contactsContainer {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.contactInfo {
+  text-align: left; /* Выравнивание контактов слева */
+  margin-bottom: 2rem;
+}
+
+.contactItem {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 1.1rem;
+  padding-left: 0; /* Убираем отступ если был */
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formInput,
+.formTextarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formTextarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.submitButton {
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.socialContainer {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .contactsContainer {
+    padding: 1.5rem;
+  }
+}

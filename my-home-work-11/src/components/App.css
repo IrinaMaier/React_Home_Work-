@@ -1,0 +1,85 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #2c3e50; /* Темно-серый фон */
+  color: #ecf0f1; /* Светлый текст */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  background-color: #2b4661; /* Темный фон для меню */
+  padding: 15px;
+  border-radius: 5px;
+}
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1; /* Белый цвет текста */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #52769d;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f0f3f6;
+}
+h1, h2, h3 {
+  color: #ecf0f1;
+}
+
+/* Список статей */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #6e8194;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: translateX(5px);
+}
+
+/* Содержимое статьи */
+.article-content {
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/* Путь текущей страницы */
+.current-path {
+  color: #bdc3c7;
+  font-style: italic;
+  margin-top: 20px;
+}
